@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Libre+Baskerville&family=Sacramento&display=swap');
+
+/* color palette
+#273c2c (Dark Green) bold color for primary headers, nav bar 
+#626868 (Dim Grey) icons, body text
+#d3c1d2 (Thistle) links, hover, button outline
+#d8bfd8 (Muted Lavender) backgrounds*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    
+}
+h1, h2{
+    font-family: 'Amatic SC', 'Comic Sans MS', sans-serif;  /* main headings  */
+    font-weight:700; /* bold */
+    
+}
+h3, h4, h5, h6{
+    font-family: 'Sacramento' cursive;
+
+}
+body{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;  /* regular */
+}
+a{
+    text-decoration: none;
+    /* buttons */
+}
+.container{
+height:100vh;
+width:100%;
+display:flex;
+align-items: center;
+justify-content: center;
+}
+/* Hero Begin */
+#hero{
+background-color: #d8bfd8;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+#hero h1{
+font-size: 50px;
+color:#939196;
+margin-bottom: 5px;
+}
+/* This is for text reveal function. Edit the spans in code
+
+#hero h1 span{
+    position: absolute;
+
+} */
+#hero .hb{
+display:inline-block;
+padding: 10px 20px;
+color: #273c2c ;
+background-color: transparent;
+border:5px double #273c2c ;
+font-size: 15px;
+text-transform: Uppercase;
+letter-spacing: 1.5rem;
+text-align: center;
+cursor: pointer;
+text-decoration: none;
+margin-top: 25px;
+}
+#hero .hb:hover{
+    color:#939196;
+    background-color: #273c2c;
+}
+/* Hero End  */
