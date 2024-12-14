@@ -168,4 +168,45 @@ li{
     display:flex;
     justify-content:center
 }
-/* Endcardcontainer */
+/* End card container */
+
+/* MEDIA QUERY */
+
+/* Small devices (phones, <768px) */
+@media (max-width: 768px) {
+    .container {
+      width: 100%; /* Use the full width of the screen */
+      padding: 10px;
+    }
+  
+    .pjtitle {
+      font-size: 24px; /* Adjust font size for smaller screens */
+      text-align: center;
+    }
+  
+    img {
+      width: 100%; /* Ensure images take full width */
+    }
+  }
+  
+  /* Medium devices (tablets, <1024px) */
+  @media (max-width: 1024px) {
+    .pjtitle {
+      font-size: 36px; /* Slightly larger font for tablets */
+    }
+  
+    .container {
+      padding: 15px;
+    }
+  }
+  
+  /* Large devices (desktops, >1024px) */
+  @media (min-width: 1025px) {
+    .pjtitle {
+      font-size: 48px; /* Larger font for desktops */
+    }
+  
+    .container {
+      max-width: 80%; /* Wider container for larger screens */
+    }
+  }
