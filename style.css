@@ -171,7 +171,25 @@ li{
 /* End card container */
 
 /* MEDIA QUERY */
-
+/* Base styles (applies to all devices) */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 90%; /* Adjust to fit smaller screens */
+    max-width: 1200px; /* Prevents it from getting too wide on large screens */
+    margin: 0 auto; /* Centers the content */
+    padding: 20px;
+  }
+  
+  img {
+    max-width: 100%; /* Makes images responsive */
+    height: auto; /* Maintains image aspect ratio */
+  }
+  
 /* Small devices (phones, <768px) */
 @media (max-width: 768px) {
     .container {
