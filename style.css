@@ -31,6 +31,9 @@ a{
     text-decoration: none;
     /* buttons */
 }
+
+/* INDEX.HTML */
+
 .container{
 height:100vh;
 width:100%;
@@ -38,6 +41,17 @@ display:flex;
 align-items: center;
 justify-content: center;
 }
+/* Landing page photo */
+.bsphoto{
+    display:block;
+    margin: 0 auto;
+    width:250px ;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+/* End Landing page photo */
+
 /* Hero Begin */
 #hero{
 background-color: #d8bfd8;
@@ -47,10 +61,14 @@ align-items: center;
 justify-content: center;
 text-align: center;
 }
+ #name{
+    margin-top: 50px;
+}
 #hero h1{
 font-size: 50px;
 color:#939196;
 margin-bottom: 5px;
+text-align: center;
 }
 /* This is for text reveal function. Edit the spans in code
 
@@ -77,6 +95,8 @@ margin-top: 25px;
     background-color: #273c2c;
 }
 /* Hero End  */
+
+/* PROJECTS.HTML */
 
 /* Nav */
 nav{
@@ -108,12 +128,12 @@ li{
 
 /* Project */
 .container{
-    height:100vh;
+    height:25vh;
     width:100%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    background-color:#8FB996 ;
+    background-color:#d8bfd8 ;
     padding-top: 60px
     ;
    
@@ -127,8 +147,8 @@ li{
 }
 .pjtitle{
     font-size: 50px;
-    color:#626868;
-    background-color: #273c2c;
+    color:#d3c1d2;
+    background-color: #626868;
     font-family: 'Libre Baskerville';
     padding: 15px;
    border-radius: 20px;
@@ -139,3 +159,11 @@ li{
     font-size:60px;
 }
 /* End Project */
+/* cardcontainer */
+.cardcontainer{
+    height:75vh;
+    width:100%;
+    display:flex;
+    justify-content:center
+}
+/* Endcardcontainer */
