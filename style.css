@@ -77,3 +77,65 @@ margin-top: 25px;
     background-color: #273c2c;
 }
 /* Hero End  */
+
+/* Nav */
+nav{
+    height:5vh;
+    width:100%;
+    display:flex;
+    
+    /* align-items:center; */
+    
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    justify-content:space-evenly;
+    list-style: none;
+    padding:0px;
+    margin:0px;
+}
+ul li{
+    margin: 0 10px;
+}
+li{
+    font-size: 25px;
+    font-family:'Amatic SC'
+}
+/* End Nav */
+
+/* Project */
+.container{
+    height:100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color:#8FB996 ;
+    padding-top: 60px
+    ;
+   
+}
+#pj{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+}
+.pjtitle{
+    font-size: 50px;
+    color:#626868;
+    background-color: #273c2c;
+    font-family: 'Libre Baskerville';
+    padding: 15px;
+   border-radius: 20px;
+   box-shadow:0 4px 6px rgba(0,0,0,0.2)
+}
+#pjspan{
+    color:#8FB996 ;font-family: Sacramento;
+    font-size:60px;
+}
+/* End Project */
