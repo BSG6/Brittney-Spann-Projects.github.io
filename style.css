@@ -90,6 +90,7 @@ text-align: center;
 cursor: pointer;
 text-decoration: none;
 margin-top: 25px;
+margin-bottom: 25px;
 }
 #hero .hb:hover{
     color:#939196;
