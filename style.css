@@ -35,19 +35,21 @@ a{
 /* INDEX.HTML */
 
 .container{
-height:100vh;
+height: 100vh;
 width:100%;
 display:flex;
 align-items: center;
 justify-content: center;
+/* overflow:hidden; */
 }
 
 /* Landing page photo */
 .bsphoto{
     display:block;
     margin: 0 auto;
-    width:250px ;
-    height: 300px;
+    height:auto ;
+    width:200px;
+    max-width: 300px;
     object-fit: cover;
     border-radius: 50px;
 }
